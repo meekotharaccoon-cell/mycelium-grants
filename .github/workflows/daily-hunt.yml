@@ -1,0 +1,26 @@
+name: 🌱 Daily Grant Hunt
+on:
+  schedule:
+    - cron: '30 14 * * *'
+  workflow_dispatch:
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Hunt
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python agent/grant_hunter.py
+      - run: |
+          git config user.email "meekotharaccoon@gmail.com"
+          git config user.name "Mycelium Grants"
+          git add data/ || true
+          git diff --staged --quiet || git commit -m "grant hunt $(date -u +%Y-%m-%d)"
+          git push || true
