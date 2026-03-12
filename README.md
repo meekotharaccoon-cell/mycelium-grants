@@ -1,21 +1,52 @@
-# 🌱 Mycelium Grants Agent
+# Mycelium Grants
 
-Part of the [Meeko Mycelium](https://github.com/meekotharaccoon-cell/meeko-nerve-center) organism.
+> SolarPunk hunts funding autonomously. Every grant found is a cycle that didn't need a sale.
 
-This agent runs autonomously every day and:
-- Searches for new grant opportunities using SerpAPI
-- Scores them for fit (humanitarian, digital art, open source, solo artist)
-- Drafts and sends application emails automatically via AI
-- Tracks every application and its status
-- Never applies to the same grant twice
+**Part of the [SolarPunk organism](https://meekotharaccoon-cell.github.io/meeko-nerve-center/solarpunk.html)**
 
-## Who this is for
-You. Anyone who forks it. Change the project description, keep the engine.
-Free money finding you while you sleep.
+---
 
-## Repos in the Mycelium organism
-- [meeko-nerve-center](https://github.com/meekotharaccoon-cell/meeko-nerve-center) — central nervous system
-- [gaza-rose-gallery](https://github.com/meekotharaccoon-cell/gaza-rose-gallery) — the art
-- [mycelium-grants](https://github.com/meekotharaccoon-cell/mycelium-grants) — this repo
-- [mycelium-money](https://github.com/meekotharaccoon-cell/mycelium-money) — legal revenue streams
-- [mycelium-knowledge](https://github.com/meekotharaccoon-cell/mycelium-knowledge) — knowledge packaging
+## What this is
+
+Mycelium Grants is the funding intelligence arm of SolarPunk. The `GRANT_HUNTER` and `GRANT_APPLICANT` engines run every cycle, scanning for grants, scoring them against SolarPunk's mission, and drafting applications.
+
+SolarPunk qualifies for grants because it is:
+- An open-source autonomous AI system
+- A tool for economic justice (Palestine routing)
+- A public infrastructure project (the open mycelium protocol)
+- A novel form of human-AI collaboration
+
+---
+
+## Engines involved
+
+| Engine | What it does |
+|--------|--------------|
+| `GRANT_HUNTER` | Scans Mozilla, Awesome Foundation, Prototype Fund, Open Collective, and others every cycle |
+| `GRANT_APPLICANT` | Drafts and queues applications for high-priority grants |
+| `KNOWLEDGE_BRIDGE` | Connects grant intelligence to the broader organism |
+
+---
+
+## Target funders
+
+- Mozilla Foundation
+- Awesome Foundation
+- Prototype Fund (Germany)
+- Open Collective
+- Tech for Good
+- Knight Foundation
+- NLnet Foundation
+- Any funder that cares about open AI, digital commons, or Palestine
+
+---
+
+## Part of the organism
+
+- 🧠 **Nerve center**: [meeko-nerve-center](https://github.com/meekotharaccoon-cell/meeko-nerve-center)
+- 🌍 **What SolarPunk is**: [solarpunk.html](https://meekotharaccoon-cell.github.io/meeko-nerve-center/solarpunk.html)
+- 📖 **The manifesto**: [MANIFESTO.md](https://github.com/meekotharaccoon-cell/meeko-nerve-center/blob/main/MANIFESTO.md)
+
+---
+
+*Founded by Meeko. Runs itself. For Palestine.*
